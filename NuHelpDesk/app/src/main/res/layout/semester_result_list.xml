@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="Your Result"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        />
+
+    <TableRow
+            android:layout_margin="10dp"
+            android:id="@+id/headerId"
+            android:background="@color/colorPrimary"
+            >
+
+
+            <TextView
+                android:layout_width="260dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Subject Name"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:paddingTop="3dp"
+                android:layout_height="wrap_content"
+                />
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Result"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingTop="3dp"
+            android:layout_height="35dp"
+            />
+
+
+
+    </TableRow>
+
+    <TableRow
+    android:layout_margin="10dp"
+    android:id="@+id/headerId_one"
+    android:background="@drawable/result_border"
+    >
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Introduction to computer"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingTop="3dp"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/subResult1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="A+"
+        android:layout_width="95dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingTop="3dp"
+        android:layout_height="wrap_content"
+        />
+
+
+
+</TableRow>
+    <TableRow
+        android:layout_margin="10dp"
+        android:id="@+id/headerId_two"
+        android:background="@drawable/result_border"
+        >
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Programming Languages"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingTop="3dp"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/subResult2"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="A+"
+            android:layout_width="95dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingTop="3dp"
+            android:layout_height="wrap_content"
+            />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="10dp"
+        android:id="@+id/headerId_three"
+        android:background="@drawable/result_border"
+        >
+
+        <TextView
+            android:id="@+id/subName"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Programming Practical"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingTop="3dp"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/subResult3"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="A+"
+            android:layout_width="95dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingTop="3dp"
+            android:layout_height="wrap_content"
+            />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="10dp"
+        android:id="@+id/headerId_four"
+        android:background="@drawable/result_border"
+        >
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Physics"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingTop="3dp"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/subResult4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="A+"
+            android:layout_width="95dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingTop="3dp"
+            android:layout_height="wrap_content"
+            />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="10dp"
+        android:id="@+id/headerId_five"
+        android:background="@drawable/result_border"
+        >
+
+        <TextView
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Math"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingTop="3dp"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/subResult5"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="A+"
+            android:layout_width="95dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingTop="3dp"
+            android:layout_height="wrap_content"
+            />
+
+
+
+    </TableRow>
+    <TableRow
+        android:layout_margin="10dp"
+        android:id="@+id/headerId_six"
+        android:background="@drawable/result_border"
+        >
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="English"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingTop="3dp"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/subResult6"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="A+"
+            android:layout_width="95dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingTop="3dp"
+            android:layout_height="wrap_content"
+            />
+
+
+
+    </TableRow>
+
+
+</TableLayout>

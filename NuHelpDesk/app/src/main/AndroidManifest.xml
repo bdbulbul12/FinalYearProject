@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.programmerhuntbd.bulbul.nuhelpdesk">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".ProgrammingLanguages.CProgramming.Quiz"
+        android:allowBackup="true"
+        android:icon="@drawable/ic"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen.MySplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".PushNotifications.MyFirebaseMessegingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".PushNotifications.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".WebView.Webview"
+            android:parentActivityName=".University.UniversityList" />
+        <activity
+            android:name=".University.UniversityList"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Admin.AdminActivity" />
+        <activity android:name=".Admin.AdminLogin" />
+        <activity
+            android:name=".CalculateCgpa.MainCalculator"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CalculateCgpa.FirstSemester"
+            android:parentActivityName=".CalculateCgpa.MainCalculator"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CalculateCgpa.SecondSemester"
+            android:parentActivityName=".CalculateCgpa.MainCalculator"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CalculateCgpa.ThirdSemester"
+            android:parentActivityName=".CalculateCgpa.MainCalculator"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CalculateCgpa.FourthSemester"
+            android:parentActivityName=".CalculateCgpa.MainCalculator"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CalculateCgpa.FifthSemester"
+            android:parentActivityName=".CalculateCgpa.MainCalculator"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CalculateCgpa.SixSemester"
+            android:parentActivityName=".CalculateCgpa.MainCalculator"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CalculateCgpa.SevenSemester"
+            android:parentActivityName=".CalculateCgpa.MainCalculator" />
+        <activity
+            android:name=".CalculateCgpa.EightSemester"
+            android:parentActivityName=".CalculateCgpa.MainCalculator"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GroupChat.ChatMainActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ProgrammingLanguages.ProgrammingMainActivity" />
+        <activity android:name=".ProgrammingLanguages.CProgramming.CMainActivity" />
+        <activity
+            android:name=".Suggestions.SuggestionsMainActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ExStudent.ExStudentList"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Suggestions.UpLoadSuggestion.ImagesActivity" />
+        <activity android:name=".Suggestions.UpLoadSuggestion.ViewMainActivity" />
+        <activity
+            android:name=".StudyCurriculam.StudyMain"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".StudyCurriculam.Semester.FirstSemesterSylabus" />
+        <activity
+            android:name=".AboutMe.AboutMeActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AllResult.StudentListResult"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".AllResult.SubjectResultActivity"
+            android:parentActivityName=".AllResult.SelectResultSemester.SelectMyResultSemester"/>
+        <activity android:name=".StudyCurriculam.Semester.SecondYearSylabus" />
+        <activity android:name=".StudyCurriculam.Semester.ThirdYearSylabus" />
+        <activity android:name=".StudyCurriculam.Semester.FourthYear" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AllResult.SelectResultSemester.SelectMyResultSemester"
+            android:parentActivityName=".AllResult.StudentListResult"></activity>
+    </application>
+
+</manifest>

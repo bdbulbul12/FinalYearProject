@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">NuHelpDesk</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="main_subject">
+        <item>Select One</item>
+        <item value="4.0">A+</item>
+        <item value="3.75">A</item>
+        <item value="3.50">A-</item>
+        <item value="3.25">B+</item>
+        <item value="3.00">B</item>
+        <item value="2.75">B-</item>
+        <item value="2.50">C+</item>
+        <item value="2.25">C</item>
+        <item value="2.00">D</item>
+        <item value="0.00">F</item>
+    </string-array>
+
+    <string-array name="programming_languages">
+
+        <item>C Programming</item>
+        <item>C++ Programming</item>
+        <item>Data Structure</item>
+        <item>Algorithm</item>
+        <item>Java</item>
+        <item>Android</item>
+    </string-array>
+
+    <string-array name="sylabus_question">
+
+        <item>firstOne</item>
+        <item>firstTwo</item>
+
+    </string-array>
+
+
+</resources>

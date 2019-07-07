@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="8"
+    tools:context="com.programmerhuntbd.bulbul.nuhelpdesk.CalculateCgpa.MainCalculator">
+
+    <include layout="@layout/my_appbar" android:id="@+id/main_app_bar"></include>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/cseFirst"
+            android:text="CSE First Semester"
+            android:textColor="#494848"
+            android:textStyle="bold"
+            android:padding="9dp"
+            android:background="@drawable/calculator_shape"
+            android:textSize="20sp"
+            android:layout_width="300dp"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/cseSecond"
+            android:text="CSE Second Semester"
+            android:textColor="#494848"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:padding="9dp"
+            android:background="@drawable/calculator_shape"
+            android:textSize="20sp"
+            android:layout_width="300dp"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/cseThird"
+            android:layout_marginTop="10dp"
+            android:text="CSE Third Semester"
+            android:textColor="#494848"
+            android:textStyle="bold"
+            android:padding="9dp"
+            android:background="@drawable/calculator_shape"
+            android:textSize="20sp"
+            android:layout_width="300dp"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/cseFourth"
+            android:text="CSE Fourth Semester"
+            android:textColor="#494848"
+            android:textStyle="bold"
+            android:padding="9dp"
+            android:background="@drawable/calculator_shape"
+            android:textSize="20sp"
+            android:layout_width="300dp"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/cseFifth"
+            android:text="CSE Fifth Semester"
+            android:textColor="#494848"
+            android:textStyle="bold"
+            android:padding="9dp"
+            android:background="@drawable/calculator_shape"
+            android:textSize="20sp"
+            android:layout_width="300dp"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/cseSix"
+            android:text="CSE Six Semester"
+            android:textColor="#494848"
+            android:textStyle="bold"
+            android:padding="9dp"
+            android:background="@drawable/calculator_shape"
+            android:textSize="20sp"
+            android:layout_width="300dp"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/cseSeven"
+            android:text="CSE Seven Semester"
+            android:textColor="#494848"
+            android:textStyle="bold"
+            android:padding="9dp"
+            android:background="@drawable/calculator_shape"
+            android:textSize="20sp"
+            android:layout_width="300dp"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/cseEight"
+            android:text="CSE Eight Semester"
+            android:textColor="#494848"
+            android:textStyle="bold"
+            android:padding="9dp"
+            android:background="@drawable/calculator_shape"
+            android:textSize="20sp"
+            android:layout_width="300dp"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

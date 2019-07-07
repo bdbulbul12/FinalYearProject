@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.programmerhuntbd.bulbul.nuhelpdesk.ProgrammingLanguages.ProgrammingMainActivity">
+
+    <include layout="@layout/my_appbar" android:id="@+id/main_app_bar"></include>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/activity_Recipe_detail_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:gravity="center"
+                android:clipToPadding="false"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:id="@+id/cProgramming"
+                        android:background="@drawable/ex_student_border_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/c"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp" />
+
+                        <View
+                            android:background="@color/material_deep_purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp">
+
+                        </View>
+
+
+                        <TextView
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_marginTop="5dp"
+                            android:text="C Programming"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_margin="5dp"
+                    android:id="@+id/cPlus"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:background="@drawable/ex_student_border_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/cplus"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp" />
+
+                        <View
+                            android:background="@color/material_deep_purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp">
+
+                        </View>
+
+                        <TextView
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_marginTop="5dp"
+                            android:text="C++ Programming"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:clipToPadding="false"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_margin="5dp"
+                    android:id="@+id/data_structure"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:background="@drawable/ex_student_border_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/data"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp" />
+
+                        <View
+                            android:background="@color/material_deep_purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp">
+
+                        </View>
+
+                        <TextView
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_marginTop="5dp"
+                            android:text="Data Structure"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_margin="5dp"
+                    android:id="@+id/algorithm"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:background="@drawable/ex_student_border_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/algo"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp" />
+
+                        <View
+                            android:background="@color/material_deep_purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp">
+
+                        </View>
+
+                        <TextView
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_marginTop="5dp"
+                            android:text="Algorithm"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:clipToPadding="false"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_margin="5dp"
+                    android:id="@+id/java"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:background="@drawable/ex_student_border_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/java"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp" />
+
+                        <View
+                            android:background="@color/material_deep_purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp">
+
+                        </View>
+
+                        <TextView
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_marginTop="5dp"
+                            android:text="Java"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_margin="5dp"
+                    android:id="@+id/database"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:background="@drawable/ex_student_border_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/db"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp" />
+
+                        <View
+                            android:background="@color/material_deep_purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp">
+
+                        </View>
+
+                        <TextView
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_marginTop="5dp"
+                            android:text="Database "
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:clipToPadding="false"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_margin="5dp"
+                    android:id="@+id/html"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:background="@drawable/ex_student_border_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/html"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp" />
+
+                        <View
+                            android:background="@color/material_deep_purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp">
+
+                        </View>
+
+                        <TextView
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_marginTop="5dp"
+                            android:text="HTML"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_margin="5dp"
+                    android:id="@+id/css"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:background="@drawable/ex_student_border_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/css"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp" />
+
+                        <View
+                            android:background="@color/material_deep_purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp">
+
+                        </View>
+
+                        <TextView
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_marginTop="5dp"
+                            android:text="CSS"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:clipToPadding="false"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_margin="5dp"
+                    android:id="@+id/js"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:background="@drawable/ex_student_border_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/js"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp" />
+
+                        <View
+                            android:background="@color/material_deep_purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp">
+
+                        </View>
+
+                        <TextView
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_marginTop="5dp"
+                            android:text="JavaScript"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_margin="5dp"
+                    android:id="@+id/ai"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:background="@drawable/ex_student_border_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/artificial"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp" />
+
+                        <View
+                            android:background="@color/material_deep_purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp">
+
+                        </View>
+
+                        <TextView
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_marginTop="5dp"
+                            android:text="C++ Programming"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

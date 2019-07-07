@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_university"
+            android:icon="@drawable/uv"
+            android:title="University List" />
+        <item
+            android:id="@+id/nav_sylabus"
+            android:icon="@drawable/book"
+            android:title="Nu Study Curriculam" />
+        <item
+            android:id="@+id/nav_all_result"
+            android:icon="@drawable/rez"
+            android:title="All Result" />
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/tutorials"
+            android:title="Notice " />
+        <item
+            android:id="@+id/nav_programming_languages"
+            android:icon="@drawable/lab"
+            android:title="Programming Quize" />
+        <item
+            android:id="@+id/nav_find_cgpa"
+            android:icon="@drawable/cgpa"
+            android:title="Calculate CGPA" />
+        <item
+            android:id="@+id/nav_exStudent"
+            android:icon="@drawable/exstu"
+            android:title="Ex Student Info" />
+
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/chat"
+            android:title="Group Chat" />
+        <item
+            android:id="@+id/nav_suggestions"
+            android:icon="@drawable/news"
+            android:title="Exam Suggestions" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

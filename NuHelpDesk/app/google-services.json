@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "210270431666",
+    "firebase_url": "https://nuhelpdesk-2c486.firebaseio.com",
+    "project_id": "nuhelpdesk-2c486",
+    "storage_bucket": "nuhelpdesk-2c486.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210270431666:android:40bc0e3ad992b562",
+        "android_client_info": {
+          "package_name": "com.programmerhuntbd.bulbul.nuhelpdesk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210270431666-jei80eur1k453alrhjm5q25u8eg0shg8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.programmerhuntbd.bulbul.nuhelpdesk",
+            "certificate_hash": "748aba64ffe01a989fa5ec9f29d4f9c01bdf2fb7"
+          }
+        },
+        {
+          "client_id": "210270431666-cf8qklj75d0mgk5fdnc34h61676cupo3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8ifRIhSxVUEA0rpFfvbtfhGkvjtkpb0A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210270431666-cf8qklj75d0mgk5fdnc34h61676cupo3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

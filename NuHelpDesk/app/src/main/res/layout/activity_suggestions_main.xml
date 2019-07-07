@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.programmerhuntbd.bulbul.nuhelpdesk.Suggestions.SuggestionsMainActivity">
+
+    <include layout="@layout/my_appbar" android:id="@+id/main_app_bar"></include>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/upload_suggestion"
+            android:text="Upload Suggestions"
+            android:textAllCaps="false"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#fff"
+            android:onClick="UploadSuggestions"
+            android:layout_width="300dp"
+            android:background="@drawable/cgpa_semester_radious_shape"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/download_suggestion"
+            android:layout_marginTop="30dp"
+            android:text="View Suggestions"
+            android:onClick="ViewSuggestions"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_width="300dp"
+            android:background="@drawable/cgpa_semester_radious_shape"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

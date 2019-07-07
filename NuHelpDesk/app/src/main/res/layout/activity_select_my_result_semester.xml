@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.programmerhuntbd.bulbul.nuhelpdesk.AllResult.SelectResultSemester.SelectMyResultSemester">
+
+
+
+    <include layout="@layout/my_appbar" android:id="@+id/main_app_bar"></include>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/activity_Recipe_detail_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:gravity="center"
+                android:clipToPadding="false"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:id="@+id/firstSemesterResult"
+                        android:background="@drawable/ex_student_border_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/data"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp" />
+
+                        <View
+                            android:background="@color/material_deep_purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp">
+
+                        </View>
+
+
+                        <TextView
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_marginTop="5dp"
+                            android:text="First Semester"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_margin="5dp"
+                    android:id="@+id/secondSemesterResult"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:background="@drawable/ex_student_border_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/data"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp" />
+
+                        <View
+                            android:background="@color/material_deep_purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp">
+
+                        </View>
+
+                        <TextView
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_marginTop="5dp"
+                            android:text="Second Semester"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:clipToPadding="false"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_margin="5dp"
+                    android:id="@+id/thirdSemesterResult"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:background="@drawable/ex_student_border_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/data"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp" />
+
+                        <View
+                            android:background="@color/material_deep_purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp">
+
+                        </View>
+
+                        <TextView
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_marginTop="5dp"
+                            android:text="Third Semester"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_margin="5dp"
+                    android:id="@+id/fourthSemesterResult"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:background="@drawable/ex_student_border_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/data"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp" />
+
+                        <View
+                            android:background="@color/material_deep_purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp">
+
+                        </View>
+
+                        <TextView
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_marginTop="5dp"
+                            android:text="Fourth Semester"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:clipToPadding="false"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_margin="5dp"
+                    android:id="@+id/fifthSemester"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:background="@drawable/ex_student_border_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/data"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp" />
+
+                        <View
+                            android:background="@color/material_deep_purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp">
+
+                        </View>
+
+                        <TextView
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_marginTop="5dp"
+                            android:text="Fifth Semester"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_margin="5dp"
+                    android:id="@+id/sixthSemesterResult"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:background="@drawable/ex_student_border_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/data"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp" />
+
+                        <View
+                            android:background="@color/material_deep_purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp">
+
+                        </View>
+
+                        <TextView
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_marginTop="5dp"
+                            android:text="Sixth Semester "
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:clipToPadding="false"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_margin="5dp"
+                    android:id="@+id/seventhSemesterResult"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:background="@drawable/ex_student_border_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/data"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp" />
+
+                        <View
+                            android:background="@color/material_deep_purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp">
+
+                        </View>
+
+                        <TextView
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_marginTop="5dp"
+                            android:text="Seventh Semester"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_margin="5dp"
+                    android:id="@+id/eightSemesterResult"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:background="@drawable/ex_student_border_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/data"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp" />
+
+                        <View
+                            android:background="@color/material_deep_purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp">
+
+                        </View>
+
+                        <TextView
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_marginTop="5dp"
+                            android:text="Eight Semester"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>
+
